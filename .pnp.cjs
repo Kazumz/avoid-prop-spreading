@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:222e8aa9ba604bf0951dba92562ff75039b073daa6d3a828136d94d293a085a0725c56ef9e52ae39d2905c7dab844f20e980f88cedfbf008d3b4955640192fb7#npm:18.1.0"],\
             ["react-scripts", "virtual:222e8aa9ba604bf0951dba92562ff75039b073daa6d3a828136d94d293a085a0725c56ef9e52ae39d2905c7dab844f20e980f88cedfbf008d3b4955640192fb7#npm:5.0.1"],\
+            ["sass", "npm:1.52.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -5534,6 +5535,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:222e8aa9ba604bf0951dba92562ff75039b073daa6d3a828136d94d293a085a0725c56ef9e52ae39d2905c7dab844f20e980f88cedfbf008d3b4955640192fb7#npm:18.1.0"],\
             ["react-scripts", "virtual:222e8aa9ba604bf0951dba92562ff75039b073daa6d3a828136d94d293a085a0725c56ef9e52ae39d2905c7dab844f20e980f88cedfbf008d3b4955640192fb7#npm:5.0.1"],\
+            ["sass", "npm:1.52.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -9510,6 +9512,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/immer-npm-9.0.14-0baed19a8d-17f1365c06.zip/node_modules/immer/",\
           "packageDependencies": [\
             ["immer", "npm:9.0.14"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["immutable", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-4.0.0-74b844f82e-4b5e9181e4.zip/node_modules/immutable/",\
+          "packageDependencies": [\
+            ["immutable", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14609,6 +14620,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/sanitize.css-npm-13.0.0-3424903b5d-a99ca77c4d.zip/node_modules/sanitize.css/",\
           "packageDependencies": [\
             ["sanitize.css", "npm:13.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sass", [\
+        ["npm:1.52.0", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.52.0-d4ed4ecb8a-7405b6de76.zip/node_modules/sass/",\
+          "packageDependencies": [\
+            ["sass", "npm:1.52.0"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["immutable", "npm:4.0.0"],\
+            ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
