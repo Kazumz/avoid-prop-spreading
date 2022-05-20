@@ -23,6 +23,7 @@ const MemoImplicitPropsPropagatingRenders: React.FC<IImplicitProps> = (props) =>
         }
     }, [])
 
+    console.log('MemoImplicitPropsPropagatingRenders.Render')
     return (
         <SubComponent {...parsedProps} />
     )
@@ -33,10 +34,15 @@ interface ISubComponentProps {
     title: string;
 }
 
-const SubComponent: React.FC<ISubComponentProps> = ({id, title}) => {
+/*
+Memoised wrapper to act like a PureComponent whereby the props will be shallow compared before deciding to render again.
+Unfortunately, this component is passed 'notCaughtByLinter' so will re-render anyway.
+ */
+const SubComponent: React.FC<ISubComponentProps> = React.memo(({id, title}) => {
+    console.log('MemoImplicitPropsPropagatingRenders.SubComponent.Render')
     return (
         <span>{id} {title}</span>
     )
-}
+})
 
 export default MemoImplicitPropsPropagatingRenders;

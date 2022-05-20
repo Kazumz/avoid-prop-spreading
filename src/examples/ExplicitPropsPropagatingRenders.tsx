@@ -22,7 +22,8 @@ const ExplicitPropsPropagatingRenders: React.FC<IExplicitProps> = (props) => {
             clearInterval(interval);
         }
     }, [])
-
+    
+    console.log('ExplicitPropsPropagatingRenders.Render')
     return (
         <SubComponent id={parsedProps.id} title={parsedProps.title} />
     )
